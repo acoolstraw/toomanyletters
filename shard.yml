@@ -1,0 +1,27 @@
+name: toomanyletters
+version: 0.1.0
+
+authors:
+  - acoolstraw <acoolstraw@protonmail.com>
+
+targets:
+  toomanyletters:
+    main: src/toomanyletters.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  crystal-rethinkdb:
+    github: kingsleyh/crystal-rethinkdb
+  markd:
+    github: icyleaf/markd
+  newsapi:
+    github: acoolstraw/newsapi.cr
+  crystal-argon2:
+    github: SushiChain/crystal-argon2
+  kemal-session:
+    github: kemalcr/kemal-session
+
+crystal: 0.30.1
+
+license: MIT

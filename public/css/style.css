@@ -1,0 +1,154 @@
+:root {
+    --white: #dbdbdb;
+    --black: #0e1014;
+    --gray: #d6d6d6;
+    --dark: #1c1c24;
+}
+* {
+    border: 1px white solid;
+    box-sizing: border-box;
+    color: var(--white);
+    font-family: "Inter";
+}
+body {
+    background-color: var(--black);
+    margin: 0;
+}
+@font-face {
+    font-family: "Inter SemiBold";
+    src: url("Inter-SemiBold.ttf");
+}
+@font-face {
+    font-family: "Inter";
+    src: url("Inter-Regular.ttf");
+}
+h1, h2, h3 {
+    font-family: "Inter SemiBold";
+}
+h1 {
+    letter-spacing: -5px;
+    font-size: 40px;
+    line-height: 1.4px;
+}
+h2 {
+    letter-spacing: -1.8px;
+    font-size: 19px;
+    line-height: 24px;
+}
+h3 {
+    letter-spacing: -1.4px;
+    line-height: 1.4px;
+}
+p {
+    letter-spacing: -0.8px;
+}
+a {
+    font-family: "Inter SemiBold";
+}
+b {
+    font-family: 'Inter SemiBold';
+    letter-spacing: -1px;
+}
+.bottom {
+    text-align: center;
+}
+.bar {
+    width: 100%;
+    text-align: center;
+}
+.lower-body {
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 5%
+}
+.flex {
+    display: flex;
+}
+.flex.row {
+    flex-direction: row;
+}
+.flex.col {
+    flex-direction: column;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 400px;
+    background-color: var(--dark);
+    min-height: 150px;
+}
+.fixcard {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    padding: 10px;
+    padding-top: 0px;
+    margin-top: 30px;
+    background-color: var(--dark);
+    width: 90%;
+    position: sticky;
+    height: 900px;
+    transition: ease-in 0.3s;
+}
+.lb-col {
+    display: flex;
+    flex-direction: row;
+}
+.card img {
+    margin: 5px;
+    margin-top: 16px;
+    margin-left: 8px;
+    width: 48px;
+    height: 48px;
+}
+.txt-row {
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.txt-row p {
+    margin: 8px;
+}
+.txt-row h2 {
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+.readbtn {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    background-color: var(--black);
+    color: var(--white);
+    cursor: pointer;
+    min-width: 42%;
+    height: 50px;
+    border: none;
+    font-family: "Inter SemiBold";
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -1.8px;
+    transition: ease-in-out 0.3s;
+}
+.readbtn:hover {
+    color: var(--black);
+    background-color: var(--white);
+}
+.ts {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+input[type=text] {
+    border: 2px solid var(--white);
+    color: var(--gray);
+    background-color: var(--black);
+    width: 400px;
+    padding-left: 5px;
+    font-family: "Inter SemiBold";
+    letter-spacing: -1px;
+    font-size: 20px;
+    height: 40px;
+}
